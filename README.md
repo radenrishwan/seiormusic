@@ -1,16 +1,26 @@
-# seiormusic
+# SeiorMusic
+Dekstop Music App Using Flutter.
 
-A new Flutter project.
+![example](images/example.png)
 
-## Getting Started
+## TODO
+- Fix Bug
+- Add youtube downloader
+- Add assest
+- Add multi language
 
-This project is a starting point for a Flutter application.
+## Build
+Plase make sure you already installed Linux toolchain for Linux or Visual Studio for Windows to build app from repository.
 
-A few resources to get you started if this is your first Flutter project:
+To check if Linux Toolcain or Visual studio. run
+```bash
+$ flutter doctor
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Plone repository first and run
+```bash
+$ git clone https://github.com/radenrishwan/seiormusic
+$ flutter build <platform> --release # example : flutter build linux --release
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pou can find out build app at  build folder.
